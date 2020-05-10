@@ -1,0 +1,18 @@
+# Modele de quittance en HTML (sera convertit en PDF avant envoi)
+# Les différentes clefs doivent être définies sur la forme {{clef}}
+# Exemple: {{adresse}} pour que la clef soit remplacé par la valeur définie
+# dans adresse
+
+# Liste des différents logement
+[[logement]]
+adresse = "4 rue du pont de l'oie"
+ville = "Paris"
+codePostal = "75002"
+loyerHorsCharges = 800
+charges = 100
+    [[logement.locataire]]
+    nom = "DUPONT"
+    prenom = "Louis"
+    [[logement.locataire]]
+    nom = "L'éventreur"
+    prenom = "Jack"

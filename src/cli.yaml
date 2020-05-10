@@ -1,0 +1,16 @@
+name: Rent receipt management (rrm)
+version: "1.0"
+author: Crop Nicolas
+args:
+  - config:
+      short: c
+      long: config
+      value_name: PATH
+      help: Patjh to the config file
+      required: true
+      takes_value: true
+  - number:
+      help: rent receipt number in the format yyyymm
+      short: n
+      long: number
+      value_name: RECEIPT_NUMBER
